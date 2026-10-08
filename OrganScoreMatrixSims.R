@@ -2,7 +2,7 @@
 library(tidyverse)
 
 # Set working directory
-setwd("/Users/toribarrow/Desktop/Megafolder/Project Seedling/MiscThesis/")
+setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 
 # Import data from matrix model simulations
 data <- read_csv("OrganScoreSims.csv", show_col_types = FALSE)
