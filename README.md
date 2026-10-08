@@ -15,3 +15,5 @@ runs the stochastic simulations used to project root:shoot ratios over 10 weeks 
 Figure 3.
 
 OrganScoreMatrixSims.R contains code to generate Figure 4.
+
+LeafChangeProportions.R filters the Organ Score data to generate Figure 5.
